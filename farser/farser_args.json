@@ -1,0 +1,17 @@
+{
+    "freeze_lm": true,
+    "lm_name": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "lm_quantize": null,
+    "new_padding_token": false,
+    "freeze_vm": true,
+    "vm_name": "trpakov/vit-face-expression",
+    "vm_only_use_cls_token": true,
+    "device": "cuda",
+    "regular_device": "cpu",
+    "torch_dtype": "torch.bfloat16",
+    "lm_device": "cuda",
+    "modality_projector_device": "cuda",
+    "vm_device": "cpu",
+    "num_mp_layers": 1,
+    "image_dropout_prob": 0.1
+}
